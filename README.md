@@ -6,5 +6,5 @@
 </p>
 
 ## Credits
-- [Oluwatomisin Isogun](github.com/TosinISOGUN)
-> If you wanna collaborate, kindly send a pull request.
+- [Oluwatomisin Isogun](https://github.com/TosinISOGUN)
+> If you want to collaborate, kindly send a pull request.
