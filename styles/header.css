@@ -5,19 +5,60 @@
   justify-content: space-between;
 }
 
+/* LEFT SECTION */
 .left-section {
-  background-color: lightblue;
-  width: 150px;
+  display: flex;
+  align-items: center;
 }
 
+.hamburger_icon {
+  height: 22px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube_icon {
+  height: 18px;
+}
+
+/* MIDDLE SECTION */
 .middle-section {
   background-color: lightpink;
+  display: flex;
   flex: 1;
   margin-left: 70px;
   margin-right: 35px;
   max-width: 500px;
+  min-width: px;
+  align-items: center;
 }
 
+.search-box {
+  
+}
+
+.search-button {
+  
+}
+
+.search_icon {
+  height: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+}
+
+.voice-search-button {
+ margin-left: 7px;
+}
+
+.voice_search_icon {
+  height: 20px;
+}
+
+
+/* RIGHT SECTION */
 .right-section {
   background-color: lightblue;
   width: 200px;
