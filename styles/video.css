@@ -1,5 +1,10 @@
 .grid-div {
   display: grid;
+  background-color: rgb(247, 242, 242);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(212, 207, 207);
+  padding: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
