@@ -1,8 +1,19 @@
 .header {
   display: flex;
   flex-direction: row;
-  height: 50px;
   justify-content: space-between;
+
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(214, 212, 212);
 }
 
 /* LEFT SECTION */
@@ -103,6 +114,6 @@
 }
 
 .current-user-picture {
-  height: 30px;
-  border-radius: 15px;
+  height: 29px;
+  border-radius: 14px;
 }
