@@ -1,12 +1,13 @@
 .grid-div {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
 }
 
 .thumbnail-row {
   margin-bottom: 10px;
+  position: relative;
 }
 
 .video-info-grid {
@@ -21,7 +22,7 @@
 
 .video-title-text {
   font-family: Roboto, Arial;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   margin-top: 0;
@@ -46,4 +47,23 @@
 
 .thumbnail {
   width: 100%;
+}
+
+/* POSITIONING CSS PROPERTIES*/
+
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border-radius: 1px;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-radius: 2px;
+  right: 4px;
+  bottom: 8px;
 }
