@@ -16,13 +16,13 @@
 }
 
 .channel-image1 {
-  height: 40px;
-  border-radius: 20px;
+  height: 32px;
+  border-radius: 16px;
 }
 
 .video-title-text {
   font-family: Roboto, Arial;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   margin-top: 0;

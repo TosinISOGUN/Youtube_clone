@@ -4,18 +4,19 @@
   left: 0px;
   bottom: 0;
   width: 65px;
-  background-color: white;
 }
 
-.sidebar-icon-div {
-  padding-top: 15px;
-  height: 350px;
+.sidebar-link {
+  height: 75px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
 }
 
-.side-bar-icons {
-  height: 22px;
+.sidebar-link:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.sidebar-link img {
+  height: 24px;
 }
