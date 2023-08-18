@@ -67,30 +67,77 @@
 
 .search-button {
   height: 40px;
+  width: 65px;
   border-width: 1px;
   border-style: solid;
   border-color: rgb(184, 184, 184);
   background-color: rgb(248, 247, 247);
   margin-left: -1px;
+  margin-right: 5px;
   cursor: pointer;
 }
 
-.search-icon {
-  height: 22px;
+.search-button,
+.voice-search-button,
+.upload-icon-container {
+  display: flex;
+  justify-content: center;
+  position: relative
+}
+
+.search-button .tooltips,
+.voice-search-button .tooltips,
+.upload-icon-div .tooltips {
+  font-size: 12px;
+  background-color: rgb(107, 106, 106);
+  color: white;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+
+  position: absolute;
+  bottom: -50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltips,
+.voice-search-button:hover .tooltips,
+.upload-icon-div:hover .tooltips {
+  opacity: 1;
+}
+
+.upload-icon-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+.search-icon {
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
   padding-bottom: 2px;
 }
 
 .voice-search-button {
-  background-color: rgb(252, 252, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
   margin-left: 7px;
   border-style: none;
-  height: 36px;
-  width: 36px;
-  border-radius: 18px;
+  height: 40px;
+
+  border-radius: 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .voice-search-icon {
