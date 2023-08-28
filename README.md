@@ -7,6 +7,15 @@
 
 As part of taking my skills in HTML and CSS to the next level, I'm building a clone of Youtube.com. This repository contains my source codes.
 
+## Techniques Used In This Project
+- Nested Layouts Technique
+- Display: block/ inline-block;
+- Grid
+- Flexbox
+- Position
+
+**Also, the page was made responsive in order to make it feel alive across various screen sizes and improve the overall user experience.**
+
 ## Credits
 - [Oluwatomisin Isogun](https://github.com/TosinISOGUN)
 > If you want to collaborate, kindly send a pull request.
